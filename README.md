@@ -10,3 +10,10 @@ docker compose build --no-cache  クリーンにインストールして不具�
 docker compose up -d　裏でコンテナを起動する  
 docker compose exec サービス名 sh   コンテナの中に入ってコマンドを打てるようになる   
 npx tsx src/(typescriptのファイル名)   プログラムの実行  
+
+## 学んだこと
+Partial<T>を使えばTのプロパティをオプショナルにできる  
+Pick<T, ""|"">を使えば、Tからプロパティの抽出ができる  
+Omit<T, ""|"">を使えばTからプロパティを排除した部分の抽出ができる  
+Record<Keys, Types>を使えばKeys,Typesのオブジェクトの型を簡単に作れる  
+keyof T をすればTのプロパティのみの抽出ができる  
