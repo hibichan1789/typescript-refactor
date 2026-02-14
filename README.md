@@ -1,5 +1,5 @@
 # typescriptのリファクタリング練習
-
+問題はgeminiで生成しています
 ## 環境構築のためのローカルでのライブラリインストール
 npm init -y  
 npm install -D typescript vite vitest  tsx
